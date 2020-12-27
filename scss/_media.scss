@@ -1,0 +1,303 @@
+
+
+@media (min-width: 2000px){
+    .btn, .skill-title, .works-category, .menu-link, .contact-subtitle, .footer, .form-inp{
+        font-size: 25px;
+    }
+    .freelance-subtitle, .contact-text, .about-text{
+        font-size: 30px;
+    }
+    .contact-item:before{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 1661px){
+    .container{
+        max-width: 1280px;
+    }
+    .project{
+        height: 380px;
+        width: 380px;
+    }
+    .freelance{
+        margin: 200px 0;
+    }
+}
+
+@media (max-width: 1440px){
+    .container{
+        max-width: 1024px;
+    }
+    .contact-form{
+        flex-basis: 100%;
+    }
+    .contact-info{
+        flex-basis: 100%;
+        padding: 80px 10px;
+    }
+    .contact-items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-wrap{
+       padding: 50px 0; 
+    }
+    .about-desc{
+        margin: 50px 0;
+    }
+    .about-img{
+        top: 150px;
+    }
+    .works{
+        margin: 80px 0;
+    }
+    .skills-column {
+        flex-basis: 45%;
+    }
+    .social-icons{
+        transform: translateX(-80%);
+    }
+}
+
+@media (max-width: 1100px){
+    .container{
+        max-width: 850px;
+    }
+    .hero-title {
+        font-size: 100px;
+    }
+    .hero-social{
+        right: 50px;
+    }
+    .hero-subtitle{
+        font-size: 25px;
+    }
+    .section-title, .about-desc span{
+        font-size: 55px;
+    }
+    .skills-wrap, .works-wrap{
+        padding: 120px 0;
+    }
+    .freelance{
+        margin: 100px 0;
+        padding: 120px 0;
+    }
+    .contact-text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 920px){
+    .container{
+        max-width: 660px;
+    }
+    .section-title, .about-desc span{
+        font-size: 45px;
+    }
+    .section-info:before{
+        top: 18px;
+    }
+    .section-info {
+        padding-left: 40px;
+    }
+    .about:before {
+        top: -70px;
+    }
+    .skills:before{
+        min-height: 80px;
+        top: -80px;
+    }
+    .hero-scroll--btn{
+        height: 30px;
+    }
+    .about-img{
+        width: 40%;
+    }
+    .about-desc{
+        flex-basis: 55%;
+    }
+    .contact-items{
+        flex-wrap: wrap;
+    }
+    .social-icons{
+        transform: translateX(-70%);
+    }
+    .works{
+        height: 428px;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+            width: 3px;
+            background-color: #171717;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #FF4900;
+        }
+    }
+}
+@media (max-width: 740px){
+    .container{
+        max-width: none;
+        padding: 0 20px;
+    }
+    .hero-social {
+        right: 20px;
+    }
+    .works-wrap{
+        padding-bottom: 0;
+    }
+    .hero{
+        background-attachment: unset;
+    }
+    .hero-title {
+        font-size: 60px;
+    }
+    .btn{
+        width: 120px;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+    .hero-social{
+        display: none;
+    }
+    .skills-wrap, .works-wrap {
+        padding: 80px 0;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .form-inp{
+        padding: 10px;
+    }
+    .social-icons{
+        transform: translateX(-55%);
+    }
+    .freelance-title {
+        font-size: 30px;
+        margin: 10px 0 30px;
+    }
+    .freelance-subtitle{
+        font-size: 18px;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-desc{
+        flex-basis: 100%;
+    }
+    .btn-menu{
+        display: flex;
+    }
+    .menu{
+        transition: .3s all;
+        transform: translateY(-100%);
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        height: 200px;
+        background-color: #000;
+    }
+    .menu-active{
+        padding: 100px 0;
+    }
+    .menu-link{
+        font-size: 20px;
+    }
+    .skills:before{
+        display: none;
+    }
+    .hero-title--label{
+        top: -35px;
+        left: 0;
+        width: 100px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .contact-modal{
+        top: 165px;
+    }
+}
+@media (max-width: 520px){
+    .skills-wrap{
+        display: block;
+    }
+    .works{
+        margin-bottom: 20px;
+    }
+    .about .section-info{
+        margin-top: 40px;
+    }
+    .about-desc{
+        margin: 0;
+    }
+    .about-text{
+        font-size: 14px;
+    }
+    .form-row{
+        flex-direction: column;
+    }
+    .form-row .form-inp:first-child{
+        margin-right: 0;
+    }
+    .form-inp{
+        padding: 20px;
+    }
+    .social-icon{
+        margin: 10px;
+        width: 30px;
+    }
+    .hero{
+        height: 95vh;
+    }
+    .hero-scroll{
+        height: 150px;
+    }
+    .contact-modal{
+        top: 300px;
+    }
+}
+@media (max-width: 460px){
+    .hero-subtitle {
+        font-size: 20px;
+    }
+    .freelance-title{
+        font-size: 20px;
+    }
+    .freelance-subtitle {
+        font-size: 14px;
+    }
+    .social-icons{
+        transform: translateX(-40%);
+    }
+    .footer{
+        font-size: 14px;
+    }
+    .contact-item{
+        padding: 15px 30px;
+    }
+    .project{
+        margin: 20px 0;
+        height: 280px;
+        width: 280px;
+    }
+    .skills:before{
+        width: 60%;
+    }
+}
+@media (max-width: 360px){
+    .footer-designer a {
+        display: block;
+    }
+    .hero-title{
+        font-size: 50px;
+    }
+    .hero-subtitle {
+        font-size: 18px;
+    }
+    .contact-modal{
+        font-size: 14px;
+        max-width: 240px;
+        left: calc(50% - 120px);
+    }
+}
